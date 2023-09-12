@@ -137,4 +137,4 @@ $full
 
 #------Email the report------
 
-Send-MailMessage -To "somerecipient@yourdomain.com" -From "somesender@yourdomain.com" -Subject "Weekly Intune Inventory" -BodyAsHtml $Htmlbody -SmtpServer yourtenant-com.mail.protection.outlook.com 
+Send-MailMessage -To "<somerecipient>@yourdomain.com" -From "<somesender>@yourdomain.com" -Subject "Weekly Intune Inventory" -BodyAsHtml $Htmlbody -SmtpServer <yourdomain-com>.mail.protection.outlook.com 
